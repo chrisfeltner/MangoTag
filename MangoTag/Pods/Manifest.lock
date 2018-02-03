@@ -1,38 +1,175 @@
 PODS:
+  - AWSAuth (2.6.11):
+    - AWSAuth/Core (= 2.6.11)
+    - AWSAuth/FacebookSignIn (= 2.6.11)
+    - AWSAuth/GoogleSignIn (= 2.6.11)
+    - AWSAuth/UI (= 2.6.11)
+    - AWSAuth/UserPoolsSignIn (= 2.6.11)
+  - AWSAuth/Core (2.6.11):
+    - AWSAuthCore (= 2.6.11)
+  - AWSAuth/FacebookSignIn (2.6.11):
+    - AWSFacebookSignIn (= 2.6.11)
+  - AWSAuth/GoogleSignIn (2.6.11):
+    - AWSGoogleSignIn (= 2.6.11)
+  - AWSAuth/UI (2.6.11):
+    - AWSAuthUI (= 2.6.11)
+  - AWSAuth/UserPoolsSignIn (2.6.11):
+    - AWSUserPoolsSignIn (= 2.6.11)
   - AWSAuthCore (2.6.11):
     - AWSCore (= 2.6.11)
   - AWSAuthUI (2.6.11):
     - AWSAuthCore (= 2.6.11)
     - AWSCore (= 2.6.11)
+  - AWSAutoScaling (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSCloudWatch (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSCognito (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSCognitoAuth (2.6.11):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
   - AWSCognitoIdentityProvider (2.6.11):
     - AWSCognitoIdentityProviderASF (= 1.0.1)
     - AWSCore (= 2.6.11)
   - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCognitoSync (2.6.11):
+    - AWSCognito (= 2.6.11)
   - AWSCore (2.6.11)
   - AWSDynamoDB (2.6.11):
     - AWSCore (= 2.6.11)
+  - AWSEC2 (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSElasticLoadBalancing (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSFacebookSignIn (2.6.11):
+    - AWSAuthCore (= 2.6.11)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+  - AWSGoogleSignIn (2.6.11):
+    - AWSAuthCore (= 2.6.11)
+  - AWSIoT (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSKinesis (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSKMS (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSLambda (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSLex (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSLogs (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSMachineLearning (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSMobileAnalytics (2.6.11):
+    - AWSCore (= 2.6.11)
   - AWSMobileClient (2.6.11):
     - AWSAuthCore (= 2.6.11)
+  - AWSPinpoint (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSPolly (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSRekognition (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSS3 (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSSES (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSSimpleDB (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSSNS (2.6.11):
+    - AWSCore (= 2.6.11)
+  - AWSSQS (2.6.11):
+    - AWSCore (= 2.6.11)
   - AWSUserPoolsSignIn (2.6.11):
     - AWSAuthCore (= 2.6.11)
     - AWSCognitoIdentityProvider (= 2.6.11)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.30.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.30.0):
+    - FBSDKCoreKit
 
 DEPENDENCIES:
-  - AWSAuthUI (~> 2.6.6)
-  - AWSDynamoDB (~> 2.6.6)
-  - AWSMobileClient (~> 2.6.6)
-  - AWSUserPoolsSignIn (~> 2.6.6)
+  - AWSAuth
+  - AWSAuthCore
+  - AWSAuthUI
+  - AWSAutoScaling
+  - AWSCloudWatch
+  - AWSCognito
+  - AWSCognitoAuth
+  - AWSCognitoIdentityProvider
+  - AWSCognitoIdentityProviderASF
+  - AWSCognitoSync
+  - AWSCore
+  - AWSDynamoDB
+  - AWSEC2
+  - AWSElasticLoadBalancing
+  - AWSFacebookSignIn
+  - AWSGoogleSignIn
+  - AWSIoT
+  - AWSKinesis
+  - AWSKMS
+  - AWSLambda
+  - AWSLex
+  - AWSLogs
+  - AWSMachineLearning
+  - AWSMobileAnalytics
+  - AWSMobileClient
+  - AWSPinpoint
+  - AWSPolly
+  - AWSRekognition
+  - AWSS3
+  - AWSSES
+  - AWSSimpleDB
+  - AWSSNS
+  - AWSSQS
+  - AWSUserPoolsSignIn
 
 SPEC CHECKSUMS:
+  AWSAuth: b0a5c705f089c1666adde10b9780d728a589d177
   AWSAuthCore: 400f64223dc7509bf2c2b320c25f03c9281e2aac
   AWSAuthUI: 6259cddd495ea178bd7da560453aef9e7909e0c1
+  AWSAutoScaling: 3285d95f21dc9172efc2cb0449f54b7b820439ec
+  AWSCloudWatch: c8211865c56d3569b66b2c6b27489289d7696ee5
+  AWSCognito: 1e6f65e3512bc9332e28c64e8a36001bce6213f9
+  AWSCognitoAuth: c8eb731b555d316c60b911914c11434f9823c3db
   AWSCognitoIdentityProvider: 83b8a4dcdd83f54750ff6556f24757894c6e6062
   AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCognitoSync: c7e66d0534fd8bf96c224ca6e052bb84002e4baa
   AWSCore: a461695bf302a32a366768bf36056be3a2c87d8d
   AWSDynamoDB: b77bdd2b91ca4787803b7f06c8efbf7725e81a8f
+  AWSEC2: 3c44f8a2176cb810261e68560bab881942c75592
+  AWSElasticLoadBalancing: 15863105f4193d0fcbb598734fe49bf3bacdb59a
+  AWSFacebookSignIn: 7f5b9d25f2751b1054b640c49637c3179d13bec1
+  AWSGoogleSignIn: f25ba5a7a5840bb6d3aab62ce44c47cf126b9c7d
+  AWSIoT: 78fb0407a3c13fd212dc52cfd0656d1f110c8670
+  AWSKinesis: 45c4c71fdc391e06d71a2ce617060e4e771c3ecd
+  AWSKMS: a44322bb9a41a92d3df48bd8f17abfa41d54d54e
+  AWSLambda: 8598dd7c2af53ee82f2f469aad2170b93a87278c
+  AWSLex: 218a5cb0e2e1f5bca5378b63a8e6b494243444ae
+  AWSLogs: 03fb8b98d0f216030b739db54161f77db6b2b3df
+  AWSMachineLearning: 14df84dea00f31e432ad27787c3ff68aa165a7bb
+  AWSMobileAnalytics: 1746be1ddbd2326ad3775a4457294c3ef2bfa180
   AWSMobileClient: 6ba0612943c6dee6b7a5bdf288296c6a8dfffb13
+  AWSPinpoint: d8b60d18bb6bbfefda68659d3e4dac64893f2596
+  AWSPolly: fa1600710f3eb20624caeb1d0566d77a44ae4902
+  AWSRekognition: 018e0301853e1e4191885ef78b61d12080d67a25
+  AWSS3: d13e29a4dbfecb7cd99b4ce833a9fe221dee8cba
+  AWSSES: 80473c566702091bc16ac6db105682caecc8a571
+  AWSSimpleDB: 368a6cac3202971afc32e550a4a41f960a3a4983
+  AWSSNS: 41e648984fd05f83ef50753614e9f74547abe6ca
+  AWSSQS: 9a6dfccac2cf7f1f186c73cc64580120dfb0fdc5
   AWSUserPoolsSignIn: 97a1023f253b01400960ba869053a9a061a0c5e8
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: 7c4bba2877781a131ab5d54c0a78c405d4307b62
+  FBSDKLoginKit: fe7a7e82373dc5daad92e1623219e86224ab1fb1
 
-PODFILE CHECKSUM: 5553bd94f394c0b87734b405565a5bcce2b78e83
+PODFILE CHECKSUM: c798254517ff1b2d8eb97c376a0641715b6b1a4b
 
 COCOAPODS: 1.4.0
