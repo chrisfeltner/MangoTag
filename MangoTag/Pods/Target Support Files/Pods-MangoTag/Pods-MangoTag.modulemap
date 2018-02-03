@@ -1,0 +1,6 @@
+framework module Pods_MangoTag {
+  umbrella header "Pods-MangoTag-umbrella.h"
+
+  export *
+  module * { export * }
+}
