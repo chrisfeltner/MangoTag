@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8362701A2025A9F30029FDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270192025A9F30029FDEB /* AppDelegate.swift */; };
+		8362701C2025A9F30029FDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362701B2025A9F30029FDEB /* ViewController.swift */; };
+		8362701F2025A9F30029FDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8362701D2025A9F30029FDEB /* Main.storyboard */; };
+		836270222025A9F30029FDEB /* MangoTag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 836270202025A9F30029FDEB /* MangoTag.xcdatamodeld */; };
+		836270242025A9F30029FDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836270232025A9F30029FDEB /* Assets.xcassets */; };
+		836270272025A9F30029FDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836270252025A9F30029FDEB /* LaunchScreen.storyboard */; };
+		836270322025A9F30029FDEB /* MangoTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270312025A9F30029FDEB /* MangoTagTests.swift */; };
+		8362703D2025A9F30029FDEB /* MangoTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362703C2025A9F30029FDEB /* MangoTagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8362702E2025A9F30029FDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8362700E2025A9F30029FDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836270152025A9F30029FDEB;
+			remoteInfo = MangoTag;
+		};
+		836270392025A9F30029FDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8362700E2025A9F30029FDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836270152025A9F30029FDEB;
+			remoteInfo = MangoTag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836270162025A9F30029FDEB /* MangoTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangoTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836270192025A9F30029FDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8362701B2025A9F30029FDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8362701E2025A9F30029FDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836270212025A9F30029FDEB /* MangoTag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MangoTag.xcdatamodel; sourceTree = "<group>"; };
+		836270232025A9F30029FDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836270262025A9F30029FDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836270282025A9F30029FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8362702D2025A9F30029FDEB /* MangoTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836270312025A9F30029FDEB /* MangoTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoTagTests.swift; sourceTree = "<group>"; };
+		836270332025A9F30029FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836270382025A9F30029FDEB /* MangoTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8362703C2025A9F30029FDEB /* MangoTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoTagUITests.swift; sourceTree = "<group>"; };
+		8362703E2025A9F30029FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836270132025A9F30029FDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8362702A2025A9F30029FDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836270352025A9F30029FDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8362700D2025A9F30029FDEB = {
+			isa = PBXGroup;
+			children = (
+				836270182025A9F30029FDEB /* MangoTag */,
+				836270302025A9F30029FDEB /* MangoTagTests */,
+				8362703B2025A9F30029FDEB /* MangoTagUITests */,
+				836270172025A9F30029FDEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836270172025A9F30029FDEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836270162025A9F30029FDEB /* MangoTag.app */,
+				8362702D2025A9F30029FDEB /* MangoTagTests.xctest */,
+				836270382025A9F30029FDEB /* MangoTagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836270182025A9F30029FDEB /* MangoTag */ = {
+			isa = PBXGroup;
+			children = (
+				836270192025A9F30029FDEB /* AppDelegate.swift */,
+				8362701B2025A9F30029FDEB /* ViewController.swift */,
+				8362701D2025A9F30029FDEB /* Main.storyboard */,
+				836270232025A9F30029FDEB /* Assets.xcassets */,
+				836270252025A9F30029FDEB /* LaunchScreen.storyboard */,
+				836270282025A9F30029FDEB /* Info.plist */,
+				836270202025A9F30029FDEB /* MangoTag.xcdatamodeld */,
+			);
+			path = MangoTag;
+			sourceTree = "<group>";
+		};
+		836270302025A9F30029FDEB /* MangoTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				836270312025A9F30029FDEB /* MangoTagTests.swift */,
+				836270332025A9F30029FDEB /* Info.plist */,
+			);
+			path = MangoTagTests;
+			sourceTree = "<group>";
+		};
+		8362703B2025A9F30029FDEB /* MangoTagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8362703C2025A9F30029FDEB /* MangoTagUITests.swift */,
+				8362703E2025A9F30029FDEB /* Info.plist */,
+			);
+			path = MangoTagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836270152025A9F30029FDEB /* MangoTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836270412025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTag" */;
+			buildPhases = (
+				836270122025A9F30029FDEB /* Sources */,
+				836270132025A9F30029FDEB /* Frameworks */,
+				836270142025A9F30029FDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangoTag;
+			productName = MangoTag;
+			productReference = 836270162025A9F30029FDEB /* MangoTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8362702C2025A9F30029FDEB /* MangoTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836270442025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTagTests" */;
+			buildPhases = (
+				836270292025A9F30029FDEB /* Sources */,
+				8362702A2025A9F30029FDEB /* Frameworks */,
+				8362702B2025A9F30029FDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8362702F2025A9F30029FDEB /* PBXTargetDependency */,
+			);
+			name = MangoTagTests;
+			productName = MangoTagTests;
+			productReference = 8362702D2025A9F30029FDEB /* MangoTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		836270372025A9F30029FDEB /* MangoTagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836270472025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTagUITests" */;
+			buildPhases = (
+				836270342025A9F30029FDEB /* Sources */,
+				836270352025A9F30029FDEB /* Frameworks */,
+				836270362025A9F30029FDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8362703A2025A9F30029FDEB /* PBXTargetDependency */,
+			);
+			name = MangoTagUITests;
+			productName = MangoTagUITests;
+			productReference = 836270382025A9F30029FDEB /* MangoTagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8362700E2025A9F30029FDEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Christopher Feltner";
+				TargetAttributes = {
+					836270152025A9F30029FDEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8362702C2025A9F30029FDEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 836270152025A9F30029FDEB;
+					};
+					836270372025A9F30029FDEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 836270152025A9F30029FDEB;
+					};
+				};
+			};
+			buildConfigurationList = 836270112025A9F30029FDEB /* Build configuration list for PBXProject "MangoTag" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8362700D2025A9F30029FDEB;
+			productRefGroup = 836270172025A9F30029FDEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836270152025A9F30029FDEB /* MangoTag */,
+				8362702C2025A9F30029FDEB /* MangoTagTests */,
+				836270372025A9F30029FDEB /* MangoTagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836270142025A9F30029FDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836270272025A9F30029FDEB /* LaunchScreen.storyboard in Resources */,
+				836270242025A9F30029FDEB /* Assets.xcassets in Resources */,
+				8362701F2025A9F30029FDEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8362702B2025A9F30029FDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836270362025A9F30029FDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836270122025A9F30029FDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836270222025A9F30029FDEB /* MangoTag.xcdatamodeld in Sources */,
+				8362701C2025A9F30029FDEB /* ViewController.swift in Sources */,
+				8362701A2025A9F30029FDEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836270292025A9F30029FDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836270322025A9F30029FDEB /* MangoTagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836270342025A9F30029FDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8362703D2025A9F30029FDEB /* MangoTagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8362702F2025A9F30029FDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836270152025A9F30029FDEB /* MangoTag */;
+			targetProxy = 8362702E2025A9F30029FDEB /* PBXContainerItemProxy */;
+		};
+		8362703A2025A9F30029FDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836270152025A9F30029FDEB /* MangoTag */;
+			targetProxy = 836270392025A9F30029FDEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8362701D2025A9F30029FDEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8362701E2025A9F30029FDEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836270252025A9F30029FDEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836270262025A9F30029FDEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8362703F2025A9F30029FDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		836270402025A9F30029FDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836270422025A9F30029FDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47892JV82;
+				INFOPLIST_FILE = MangoTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MangoTag.MangoTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836270432025A9F30029FDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47892JV82;
+				INFOPLIST_FILE = MangoTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MangoTag.MangoTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		836270452025A9F30029FDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47892JV82;
+				INFOPLIST_FILE = MangoTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MangoTag.MangoTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangoTag.app/MangoTag";
+			};
+			name = Debug;
+		};
+		836270462025A9F30029FDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47892JV82;
+				INFOPLIST_FILE = MangoTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MangoTag.MangoTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangoTag.app/MangoTag";
+			};
+			name = Release;
+		};
+		836270482025A9F30029FDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47892JV82;
+				INFOPLIST_FILE = MangoTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MangoTag.MangoTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangoTag;
+			};
+			name = Debug;
+		};
+		836270492025A9F30029FDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47892JV82;
+				INFOPLIST_FILE = MangoTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MangoTag.MangoTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangoTag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836270112025A9F30029FDEB /* Build configuration list for PBXProject "MangoTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8362703F2025A9F30029FDEB /* Debug */,
+				836270402025A9F30029FDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836270412025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836270422025A9F30029FDEB /* Debug */,
+				836270432025A9F30029FDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836270442025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836270452025A9F30029FDEB /* Debug */,
+				836270462025A9F30029FDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836270472025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836270482025A9F30029FDEB /* Debug */,
+				836270492025A9F30029FDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		836270202025A9F30029FDEB /* MangoTag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				836270212025A9F30029FDEB /* MangoTag.xcdatamodel */,
+			);
+			currentVersion = 836270212025A9F30029FDEB /* MangoTag.xcdatamodel */;
+			path = MangoTag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8362700E2025A9F30029FDEB /* Project object */;
+}
