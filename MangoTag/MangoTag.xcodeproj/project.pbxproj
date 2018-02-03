@@ -18,7 +18,6 @@
 		836270322025A9F30029FDEB /* MangoTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270312025A9F30029FDEB /* MangoTagTests.swift */; };
 		8362703D2025A9F30029FDEB /* MangoTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362703C2025A9F30029FDEB /* MangoTagUITests.swift */; };
 		8389399C2025BFBC00D5EB36 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8389399B2025BFBC00D5EB36 /* awsconfiguration.json */; };
-		8389399E2025D0AA00D5EB36 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8389399D2025D0AA00D5EB36 /* CreateAccountViewController.swift */; };
 		A1FF07123544CCC6DC557611 /* Pods_MangoTagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA87FE8BF8EC078FF391713 /* Pods_MangoTagTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		8362703C2025A9F30029FDEB /* MangoTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoTagUITests.swift; sourceTree = "<group>"; };
 		8362703E2025A9F30029FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8389399B2025BFBC00D5EB36 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
-		8389399D2025D0AA00D5EB36 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		8B0745F5F14BD6A366637B05 /* Pods_MangoTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9300F285B809A12F9382D7C5 /* Pods-MangoTagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests.release.xcconfig"; sourceTree = "<group>"; };
 		BEA87FE8BF8EC078FF391713 /* Pods_MangoTagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +122,6 @@
 				836270192025A9F30029FDEB /* AppDelegate.swift */,
 				8362701B2025A9F30029FDEB /* ViewController.swift */,
 				8362701D2025A9F30029FDEB /* Main.storyboard */,
-				8389399D2025D0AA00D5EB36 /* CreateAccountViewController.swift */,
 				836270232025A9F30029FDEB /* Assets.xcassets */,
 				836270252025A9F30029FDEB /* LaunchScreen.storyboard */,
 				836270282025A9F30029FDEB /* Info.plist */,
@@ -536,7 +533,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8389399E2025D0AA00D5EB36 /* CreateAccountViewController.swift in Sources */,
 				836270222025A9F30029FDEB /* MangoTag.xcdatamodeld in Sources */,
 				8362701C2025A9F30029FDEB /* ViewController.swift in Sources */,
 				8362701A2025A9F30029FDEB /* AppDelegate.swift in Sources */,
