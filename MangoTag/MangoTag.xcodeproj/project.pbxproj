@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C4063E84CD267FF4A1EA4DC /* Pods_MangoTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0745F5F14BD6A366637B05 /* Pods_MangoTag.framework */; };
-		669D34C67C986D89EC8D4364 /* Pods_MangoTagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557CD8BA2AB33DAAFEB7AA79 /* Pods_MangoTagUITests.framework */; };
+		0BF0AE92615EBBA626788FDF /* Pods_MangoTagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6252A8C8D89D720AE11DFD8B /* Pods_MangoTagTests.framework */; };
+		1F65B0B7EECC40FD439D8FE7 /* Pods_MangoTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D115E384C16AF5382FDD6EA1 /* Pods_MangoTag.framework */; };
+		8344EC6D2026770B0026C4A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8344EC6C2026770B0026C4A1 /* GoogleService-Info.plist */; };
 		8362701A2025A9F30029FDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270192025A9F30029FDEB /* AppDelegate.swift */; };
 		8362701C2025A9F30029FDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362701B2025A9F30029FDEB /* ViewController.swift */; };
 		8362701F2025A9F30029FDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8362701D2025A9F30029FDEB /* Main.storyboard */; };
@@ -17,8 +18,7 @@
 		836270272025A9F30029FDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836270252025A9F30029FDEB /* LaunchScreen.storyboard */; };
 		836270322025A9F30029FDEB /* MangoTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270312025A9F30029FDEB /* MangoTagTests.swift */; };
 		8362703D2025A9F30029FDEB /* MangoTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362703C2025A9F30029FDEB /* MangoTagUITests.swift */; };
-		8389399C2025BFBC00D5EB36 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8389399B2025BFBC00D5EB36 /* awsconfiguration.json */; };
-		A1FF07123544CCC6DC557611 /* Pods_MangoTagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA87FE8BF8EC078FF391713 /* Pods_MangoTagTests.framework */; };
+		893E327CD0B661A242790BB9 /* Pods_MangoTagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F525CCCBC474E0216E42EA4 /* Pods_MangoTagUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CAF58B1264090F568FFCE17 /* Pods-MangoTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag.release.xcconfig"; sourceTree = "<group>"; };
-		1D9D1D10BCC8451D0E2621C6 /* Pods-MangoTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag.debug.xcconfig"; sourceTree = "<group>"; };
-		404E20A53B0BA56001A0AA59 /* Pods-MangoTagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		557CD8BA2AB33DAAFEB7AA79 /* Pods_MangoTagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75E60C94301D265BCBA00C15 /* Pods-MangoTagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0EC9DBBA871BBEB25AD63808 /* Pods-MangoTagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27EB7DA148399FAADCBAD9B2 /* Pods-MangoTagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests.release.xcconfig"; sourceTree = "<group>"; };
+		6252A8C8D89D720AE11DFD8B /* Pods_MangoTagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F525CCCBC474E0216E42EA4 /* Pods_MangoTagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8344EC6C2026770B0026C4A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		836270162025A9F30029FDEB /* MangoTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangoTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836270192025A9F30029FDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8362701B2025A9F30029FDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +58,11 @@
 		836270382025A9F30029FDEB /* MangoTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8362703C2025A9F30029FDEB /* MangoTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoTagUITests.swift; sourceTree = "<group>"; };
 		8362703E2025A9F30029FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8389399B2025BFBC00D5EB36 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
-		8B0745F5F14BD6A366637B05 /* Pods_MangoTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9300F285B809A12F9382D7C5 /* Pods-MangoTagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests.release.xcconfig"; sourceTree = "<group>"; };
-		BEA87FE8BF8EC078FF391713 /* Pods_MangoTagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31A24C7712CCC55C2AC0F36 /* Pods-MangoTagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F33D18A18A8FEA34C55F2A3 /* Pods-MangoTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag.release.xcconfig"; sourceTree = "<group>"; };
+		9B29CA1E5A10B9195CFC014E /* Pods-MangoTagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A487A4161EEAD587D68A5CAD /* Pods-MangoTagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D115E384C16AF5382FDD6EA1 /* Pods_MangoTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8B436522948CC480A5D593 /* Pods-MangoTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4063E84CD267FF4A1EA4DC /* Pods_MangoTag.framework in Frameworks */,
+				1F65B0B7EECC40FD439D8FE7 /* Pods_MangoTag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FF07123544CCC6DC557611 /* Pods_MangoTagTests.framework in Frameworks */,
+				0BF0AE92615EBBA626788FDF /* Pods_MangoTagTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				669D34C67C986D89EC8D4364 /* Pods_MangoTagUITests.framework in Frameworks */,
+				893E327CD0B661A242790BB9 /* Pods_MangoTagUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D51A70937F7D9510563116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D115E384C16AF5382FDD6EA1 /* Pods_MangoTag.framework */,
+				6252A8C8D89D720AE11DFD8B /* Pods_MangoTagTests.framework */,
+				7F525CCCBC474E0216E42EA4 /* Pods_MangoTagUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8362700D2025A9F30029FDEB = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +110,8 @@
 				836270302025A9F30029FDEB /* MangoTagTests */,
 				8362703B2025A9F30029FDEB /* MangoTagUITests */,
 				836270172025A9F30029FDEB /* Products */,
-				FC4501A8462BEF05C5168A41 /* Pods */,
-				CAE0BF99BEA0A5E9A352FCD4 /* Frameworks */,
+				88155D44AC266FC4D751E4D0 /* Pods */,
+				27D51A70937F7D9510563116 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +128,7 @@
 		836270182025A9F30029FDEB /* MangoTag */ = {
 			isa = PBXGroup;
 			children = (
-				8389399B2025BFBC00D5EB36 /* awsconfiguration.json */,
+				8344EC6C2026770B0026C4A1 /* GoogleService-Info.plist */,
 				836270192025A9F30029FDEB /* AppDelegate.swift */,
 				8362701B2025A9F30029FDEB /* ViewController.swift */,
 				8362701D2025A9F30029FDEB /* Main.storyboard */,
@@ -148,25 +158,15 @@
 			path = MangoTagUITests;
 			sourceTree = "<group>";
 		};
-		CAE0BF99BEA0A5E9A352FCD4 /* Frameworks */ = {
+		88155D44AC266FC4D751E4D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B0745F5F14BD6A366637B05 /* Pods_MangoTag.framework */,
-				BEA87FE8BF8EC078FF391713 /* Pods_MangoTagTests.framework */,
-				557CD8BA2AB33DAAFEB7AA79 /* Pods_MangoTagUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FC4501A8462BEF05C5168A41 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D9D1D10BCC8451D0E2621C6 /* Pods-MangoTag.debug.xcconfig */,
-				1CAF58B1264090F568FFCE17 /* Pods-MangoTag.release.xcconfig */,
-				F31A24C7712CCC55C2AC0F36 /* Pods-MangoTagTests.debug.xcconfig */,
-				9300F285B809A12F9382D7C5 /* Pods-MangoTagTests.release.xcconfig */,
-				404E20A53B0BA56001A0AA59 /* Pods-MangoTagUITests.debug.xcconfig */,
-				75E60C94301D265BCBA00C15 /* Pods-MangoTagUITests.release.xcconfig */,
+				EA8B436522948CC480A5D593 /* Pods-MangoTag.debug.xcconfig */,
+				8F33D18A18A8FEA34C55F2A3 /* Pods-MangoTag.release.xcconfig */,
+				0EC9DBBA871BBEB25AD63808 /* Pods-MangoTagTests.debug.xcconfig */,
+				27EB7DA148399FAADCBAD9B2 /* Pods-MangoTagTests.release.xcconfig */,
+				A487A4161EEAD587D68A5CAD /* Pods-MangoTagUITests.debug.xcconfig */,
+				9B29CA1E5A10B9195CFC014E /* Pods-MangoTagUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -178,12 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836270412025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTag" */;
 			buildPhases = (
-				1190F446449022DA7ED3186E /* [CP] Check Pods Manifest.lock */,
+				B36A730CD750325FA193811E /* [CP] Check Pods Manifest.lock */,
 				836270122025A9F30029FDEB /* Sources */,
 				836270132025A9F30029FDEB /* Frameworks */,
 				836270142025A9F30029FDEB /* Resources */,
-				B1833941D03748DDBAC7BA2C /* [CP] Embed Pods Frameworks */,
-				D75247D8FEDED2F8011FFE43 /* [CP] Copy Pods Resources */,
+				C392186CEAEFB087DBF8D152 /* [CP] Embed Pods Frameworks */,
+				875E3BDAAAE5DBFE435D3586 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,12 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836270442025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTagTests" */;
 			buildPhases = (
-				4D5850B04BA6BF813FE13223 /* [CP] Check Pods Manifest.lock */,
+				14AF272FAF0FBFE185C19C94 /* [CP] Check Pods Manifest.lock */,
 				836270292025A9F30029FDEB /* Sources */,
 				8362702A2025A9F30029FDEB /* Frameworks */,
 				8362702B2025A9F30029FDEB /* Resources */,
-				16B5BECAA046357732D98A49 /* [CP] Embed Pods Frameworks */,
-				51450F013AD0433C5032B4F2 /* [CP] Copy Pods Resources */,
+				DE3D8FF9743852A2C3E4C5FD /* [CP] Embed Pods Frameworks */,
+				C6363E0FAFE2F5CD1D16CAF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,12 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836270472025A9F30029FDEB /* Build configuration list for PBXNativeTarget "MangoTagUITests" */;
 			buildPhases = (
-				5A327C1888E8E0EEC7B071C1 /* [CP] Check Pods Manifest.lock */,
+				32728A5A99DD981FAB501506 /* [CP] Check Pods Manifest.lock */,
 				836270342025A9F30029FDEB /* Sources */,
 				836270352025A9F30029FDEB /* Frameworks */,
 				836270362025A9F30029FDEB /* Resources */,
-				FF5FF2B592482FD646E69C19 /* [CP] Embed Pods Frameworks */,
-				09367A7E1842E01A8E921DC8 /* [CP] Copy Pods Resources */,
+				BFA995EE7E367527B06990C9 /* [CP] Embed Pods Frameworks */,
+				471B9F664226DC384849260B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,8 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8389399C2025BFBC00D5EB36 /* awsconfiguration.json in Resources */,
 				836270272025A9F30029FDEB /* LaunchScreen.storyboard in Resources */,
+				8344EC6D2026770B0026C4A1 /* GoogleService-Info.plist in Resources */,
 				836270242025A9F30029FDEB /* Assets.xcassets in Resources */,
 				8362701F2025A9F30029FDEB /* Main.storyboard in Resources */,
 			);
@@ -311,55 +311,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09367A7E1842E01A8E921DC8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1190F446449022DA7ED3186E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MangoTag-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		16B5BECAA046357732D98A49 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D5850B04BA6BF813FE13223 /* [CP] Check Pods Manifest.lock */ = {
+		14AF272FAF0FBFE185C19C94 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,22 +329,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51450F013AD0433C5032B4F2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A327C1888E8E0EEC7B071C1 /* [CP] Check Pods Manifest.lock */ = {
+		32728A5A99DD981FAB501506 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,93 +347,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1833941D03748DDBAC7BA2C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoAuth/AWSCognitoAuth.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSGoogleSignIn/AWSGoogleSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKMS/AWSKMS.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSLex/AWSLex.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSLogs/AWSLogs.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoAuth.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSGoogleSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKMS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLex.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLogs.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSRekognition.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D75247D8FEDED2F8011FFE43 /* [CP] Copy Pods Resources */ = {
+		471B9F664226DC384849260B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,10 +359,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875E3BDAAAE5DBFE435D3586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF5FF2B592482FD646E69C19 /* [CP] Embed Pods Frameworks */ = {
+		B36A730CD750325FA193811E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangoTag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA995EE7E367527B06990C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -524,6 +425,86 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C392186CEAEFB087DBF8D152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6363E0FAFE2F5CD1D16CAF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3D8FF9743852A2C3E4C5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangoTagTests/Pods-MangoTagTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -699,7 +680,7 @@
 		};
 		836270422025A9F30029FDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D9D1D10BCC8451D0E2621C6 /* Pods-MangoTag.debug.xcconfig */;
+			baseConfigurationReference = EA8B436522948CC480A5D593 /* Pods-MangoTag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -715,7 +696,7 @@
 		};
 		836270432025A9F30029FDEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CAF58B1264090F568FFCE17 /* Pods-MangoTag.release.xcconfig */;
+			baseConfigurationReference = 8F33D18A18A8FEA34C55F2A3 /* Pods-MangoTag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -731,7 +712,7 @@
 		};
 		836270452025A9F30029FDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F31A24C7712CCC55C2AC0F36 /* Pods-MangoTagTests.debug.xcconfig */;
+			baseConfigurationReference = 0EC9DBBA871BBEB25AD63808 /* Pods-MangoTagTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -749,7 +730,7 @@
 		};
 		836270462025A9F30029FDEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9300F285B809A12F9382D7C5 /* Pods-MangoTagTests.release.xcconfig */;
+			baseConfigurationReference = 27EB7DA148399FAADCBAD9B2 /* Pods-MangoTagTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -767,7 +748,7 @@
 		};
 		836270482025A9F30029FDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 404E20A53B0BA56001A0AA59 /* Pods-MangoTagUITests.debug.xcconfig */;
+			baseConfigurationReference = A487A4161EEAD587D68A5CAD /* Pods-MangoTagUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -784,7 +765,7 @@
 		};
 		836270492025A9F30029FDEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E60C94301D265BCBA00C15 /* Pods-MangoTagUITests.release.xcconfig */;
+			baseConfigurationReference = 9B29CA1E5A10B9195CFC014E /* Pods-MangoTagUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

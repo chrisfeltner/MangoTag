@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3486D8E38A9108A45ABA771F1B160D8"
+               BlueprintIdentifier = "1C99E979BA4334E7B01E514FCB338E45"
                BuildableName = "Pods_MangoTag.framework"
                BlueprintName = "Pods-MangoTag"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3486D8E38A9108A45ABA771F1B160D8"
+            BlueprintIdentifier = "1C99E979BA4334E7B01E514FCB338E45"
             BuildableName = "Pods_MangoTag.framework"
             BlueprintName = "Pods-MangoTag"
             ReferencedContainer = "container:Pods.xcodeproj">
