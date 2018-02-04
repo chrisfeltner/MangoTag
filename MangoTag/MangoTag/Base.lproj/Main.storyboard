@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="1884" y="841.52923538230891"/>
         </scene>
-        <!--View Controller-->
+        <!--Join Game View Controller-->
         <scene sceneID="M4I-Qe-gzi">
             <objects>
-                <viewController id="BK5-qW-oaa" sceneMemberID="viewController">
+                <viewController id="BK5-qW-oaa" customClass="JoinGameViewController" customModule="MangoTag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y0a-cL-cFt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
