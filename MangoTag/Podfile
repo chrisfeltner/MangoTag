@@ -6,6 +6,7 @@ target 'MangoTag' do
   use_frameworks!
   pod 'Firebase/Core'
   pod 'FirebaseUI'
+  pod 'FirebaseDatabase'
   # Pods for MangoTag
 
   target 'MangoTagTests' do
