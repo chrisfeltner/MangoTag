@@ -12,13 +12,13 @@
 		8344EC6D2026770B0026C4A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8344EC6C2026770B0026C4A1 /* GoogleService-Info.plist */; };
 		8344EC6F20269BC40026C4A1 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344EC6E20269BC40026C4A1 /* NewGameViewController.swift */; };
 		8362701A2025A9F30029FDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270192025A9F30029FDEB /* AppDelegate.swift */; };
-		8362701C2025A9F30029FDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362701B2025A9F30029FDEB /* ViewController.swift */; };
 		8362701F2025A9F30029FDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8362701D2025A9F30029FDEB /* Main.storyboard */; };
 		836270222025A9F30029FDEB /* MangoTag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 836270202025A9F30029FDEB /* MangoTag.xcdatamodeld */; };
 		836270242025A9F30029FDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836270232025A9F30029FDEB /* Assets.xcassets */; };
 		836270272025A9F30029FDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836270252025A9F30029FDEB /* LaunchScreen.storyboard */; };
 		836270322025A9F30029FDEB /* MangoTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836270312025A9F30029FDEB /* MangoTagTests.swift */; };
 		8362703D2025A9F30029FDEB /* MangoTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362703C2025A9F30029FDEB /* MangoTagUITests.swift */; };
+		83F0660320270D3D0083DCDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F0660220270D3D0083DCDF /* ViewController.swift */; };
 		83FF4F5C2026BAAE0020CA4D /* JoinGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FF4F5B2026BAAE0020CA4D /* JoinGameViewController.swift */; };
 		893E327CD0B661A242790BB9 /* Pods_MangoTagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F525CCCBC474E0216E42EA4 /* Pods_MangoTagUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,6 @@
 		8344EC6E20269BC40026C4A1 /* NewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
 		836270162025A9F30029FDEB /* MangoTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangoTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836270192025A9F30029FDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8362701B2025A9F30029FDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8362701E2025A9F30029FDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836270212025A9F30029FDEB /* MangoTag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MangoTag.xcdatamodel; sourceTree = "<group>"; };
 		836270232025A9F30029FDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		836270382025A9F30029FDEB /* MangoTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8362703C2025A9F30029FDEB /* MangoTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoTagUITests.swift; sourceTree = "<group>"; };
 		8362703E2025A9F30029FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F0660220270D3D0083DCDF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83FF4F5B2026BAAE0020CA4D /* JoinGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGameViewController.swift; sourceTree = "<group>"; };
 		8F33D18A18A8FEA34C55F2A3 /* Pods-MangoTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTag/Pods-MangoTag.release.xcconfig"; sourceTree = "<group>"; };
 		9B29CA1E5A10B9195CFC014E /* Pods-MangoTagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoTagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangoTagUITests/Pods-MangoTagUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,9 +132,9 @@
 		836270182025A9F30029FDEB /* MangoTag */ = {
 			isa = PBXGroup;
 			children = (
+				83F0660220270D3D0083DCDF /* ViewController.swift */,
 				8344EC6C2026770B0026C4A1 /* GoogleService-Info.plist */,
 				836270192025A9F30029FDEB /* AppDelegate.swift */,
-				8362701B2025A9F30029FDEB /* ViewController.swift */,
 				83FF4F5B2026BAAE0020CA4D /* JoinGameViewController.swift */,
 				8362701D2025A9F30029FDEB /* Main.storyboard */,
 				8344EC6E20269BC40026C4A1 /* NewGameViewController.swift */,
@@ -520,10 +520,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F0660320270D3D0083DCDF /* ViewController.swift in Sources */,
 				83FF4F5C2026BAAE0020CA4D /* JoinGameViewController.swift in Sources */,
 				836270222025A9F30029FDEB /* MangoTag.xcdatamodeld in Sources */,
 				8344EC6F20269BC40026C4A1 /* NewGameViewController.swift in Sources */,
-				8362701C2025A9F30029FDEB /* ViewController.swift in Sources */,
 				8362701A2025A9F30029FDEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

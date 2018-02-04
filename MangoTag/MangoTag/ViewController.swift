@@ -15,6 +15,7 @@ class ViewController: UIViewController {
 
     var user: User?;
     var uid: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -39,7 +40,9 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       // let destVC = segue.destination
+        let destVC = segue.destination as! JoinGameViewController
+     //   destVC.previousVC = self
+     //   destVC.userID = uid!
         
     }
 
